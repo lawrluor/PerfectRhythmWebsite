@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  font-family: 'Libre Caslon Text', serif;
+  background-color: #fdfdfd;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.main-container {
+  padding: 15px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.action-button {
+  background-color: rgba(0, 122, 255, 1.0);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px 15px;
+  margin: 15px 10px 0 0;
+  text-decoration: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.action-button:hover {
+  opacity: 0.6;
+}
