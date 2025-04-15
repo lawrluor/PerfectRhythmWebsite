@@ -1,12 +1,12 @@
-import './reset.css';
 import './App.css';
+import './reset.css';
 
 function App() {
   return (
     <div className="main-container">
       <header>
-        <h1>PerfectRhythm</h1>
-        <p>Coming soon to iOS devices.</p>
+        <h1>perfect pulse</h1>
+        <p>coming soon to iPhone and iPad.</p>
       </header>
 
       <body>
