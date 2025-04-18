@@ -1,4 +1,6 @@
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import Nav from './Nav';
 import TermsAndConditions from './TermsAndConditions';
 import PrivacyPolicy from './PrivacyPolicy';
 
@@ -8,11 +10,7 @@ import './App.css';
 function Home() {
   return (
     <div>
-      <nav className="nav-home">
-        {/* <a className="nav-link" href='about.html' id="about">about</a> */}
-        <Link to="/privacy-policy" className="nav-link" id="privacy-policy">privacy policy</Link>
-        <Link to="/terms-and-conditions" className="nav-link" id="terms-and-conditions">terms and conditions</Link>
-      </nav>
+      <Nav />
 
       <section className="main-container">
         <header>

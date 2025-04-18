@@ -37,17 +37,28 @@ a:hover {
   opacity: 0.8;
 }
 
-.nav-home {
+.nav {
   position: fixed;
-  right: 0;
   top: 20px;
-  right: 10px;
   font-size: 0.9rem;
+  width: 100%;
+  padding: 0 10px;
 }
 
 .nav-link {
-  margin-right: 10px;
   font-weight: bold;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+#privacy-policy {
+  margin-right: 10px;
 }
 
 .main-container {
@@ -61,6 +72,7 @@ a:hover {
 
 .description-container {
   padding-top: 10px;
+  text-align: center;
 }
 
 .button-container {
