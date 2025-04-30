@@ -1,6 +1,4 @@
-import Nav from './Nav';
-
-import './Policy.css';
+import Nav from '../components/Nav';
 
 const TermsAndConditions = () => {
   return (

@@ -1,6 +1,4 @@
-import './Policy.css';
-
-import Nav from './Nav';
+import Nav from '../components/Nav';
 
 const PrivacyPolicy = () => {
   return (
